@@ -3,36 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon Portfolio</title>
+  <title>Ton Nom - Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<script src="script.js"></script>
+
   <header>
-    <h1>Ton Nom</h1>
     <nav>
-      <a href="#apropos">À propos</a>
-      <a href="#projets">Projets</a>
-      <a href="#contact">Contact</a>
+      <h1>Ton Nom</h1>
+      <ul>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <section id="apropos">
-    <h2>À propos de moi</h2>
-    <p>Je suis un développeur web et mobile en formation passionné par la tech.</p>
-  </section>
+  <main>
+    <section id="apropos">
+      <h2>À propos de moi</h2>
+      <p>Je suis un développeur web et mobile passionné par la tech.</p>
+    </section>
 
-  <section id="projets">
-    <h2>Mes projets</h2>
-    <ul>
-      <li>Projet 1 – Calculatrice JS</li>
-      <li>Projet 2 – To-do List</li>
-    </ul>
-  </section>
+    <section id="projets">
+      <h2>Mes projets</h2>
+      <ul>
+        <li><strong>Projet 1 :</strong> Calculatrice JS</li>
+        <li><strong>Projet 2 :</strong> To-do List</li>
+      </ul>
+    </section>
+<section id="competences">
+  <h2>Mes Compétences</h2>
+  <div class="skills-container">
+    <div class="skill">
+      <span>HTML</span>
+      <div class="bar"><div class="progress html"></div></div>
+    </div>
+    <div class="skill">
+      <span>CSS</span>
+      <div class="bar"><div class="progress css"></div></div>
+    </div>
+    <div class="skill">
+      <span>JavaScript</span>
+      <div class="bar"><div class="progress js"></div></div>
+    </div>
+  </div>
+</section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email : tonemail@exemple.com</p>
-  </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email : <a href="mailto:tonemail@exemple.com">tonemail@exemple.com</a></p>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 Ton Nom</p>
